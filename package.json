@@ -1,0 +1,28 @@
+{
+  "name": "wifi-qrcode-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-specifier-resolution=node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright-chromium": "^1.17.2",
+    "qrcode": "^1.5.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.5",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsdoc": "^37.6.1",
+    "eslint-plugin-jsx-a11y": "^6.5.1"
+  },
+  "type": "module",
+  "engines": {
+    "node": "16.13.x"
+  }
+}

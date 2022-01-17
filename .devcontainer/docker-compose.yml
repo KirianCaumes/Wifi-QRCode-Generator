@@ -1,0 +1,19 @@
+version: '3'
+services:
+  wifiqrcodegenerator_container:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../:/app_wifiqrcodegenerator:rw
+    ports:
+      - 5000:5000
+      - 3000:3000
+    networks:
+      - wifiqrcodegenerator_network
+
+networks:
+  wifiqrcodegenerator_network:
+    driver: 'bridge'

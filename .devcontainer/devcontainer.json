@@ -1,0 +1,16 @@
+{
+  "name": "wifiqrcodegenerator",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "wifiqrcodegenerator_container",
+  "workspaceFolder": "/app_wifiqrcodegenerator",
+  "extensions": [
+    "gruntfuggly.todo-tree",
+    "sibiraj-s.vscode-scss-formatter",
+    "firefox-devtools.vscode-firefox-debug",
+    "msjsdiag.debugger-for-chrome",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "pflannery.vscode-versionlens"
+  ]
+}
