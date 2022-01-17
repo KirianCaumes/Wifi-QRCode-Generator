@@ -1,6 +1,6 @@
 # Wifi QRCode generator
 
-A simple script to generate an image with a QR Code to easily share your WIFI.
+A simple script to generate an image with a QR Code to easily share your Wifi.
 
 ## How to run?
 
