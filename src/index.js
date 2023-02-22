@@ -2,7 +2,7 @@ import QRCode from 'qrcode'
 import { chromium as playwright } from 'playwright-chromium'
 import { readFile } from 'fs/promises'
 import ask from './utils/ask.util'
-import getQrCodeContent from './utils/getQrCodeContent.util'
+import getQrCodeContent from './utils/get-qr-code-content.util'
 
 /** @type {DataType} */
 const data = {

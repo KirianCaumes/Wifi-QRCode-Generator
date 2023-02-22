@@ -1,18 +1,37 @@
 # Wifi QRCode generator
 
-A simple script to generate an image with a QR Code to easily share your Wifi.
+A basic script to generate an image with a QR Code to easily share your Wifi. 📶
 
-## How to run?
+![Example](https://user-images.githubusercontent.com/24525092/220751422-9331a010-40c1-4913-9c89-9b60f6c2ad47.png)
 
-Open folder with Visual Studio Code.
+## How to use
 
-Install `ms-vscode-remote.remote-containers` extension.
-
-Open Visual Code in Container : click in the green icon on bottom left screen, and choose `Open in Container` (Docker required).
-
-Then:
+Install dependecies with:
 
 ```sh
-npm i #First time only
+npm install
+```
+
+Start the script with and follow the instructions:
+
+```sh
 npm start
 ```
+
+## How to contribute/develop
+
+There is a [devcontainer](https://code.visualstudio.com/docs/devcontainers/containers) on that project already configured, feel free to use it.
+
+Install dependecies with:
+
+```sh
+npm install
+```
+
+Start the script:
+
+```sh
+npm start
+```
+
+You can open a pull request with your new additions.
