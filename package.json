@@ -1,14 +1,32 @@
 {
   "name": "wifi-qrcode-generator",
+  "description": "A basic script to generate an image with a QR Code to easily share your Wifi. 📶",
   "version": "1.0.0",
-  "description": "",
+  "author": "KirianCaumes",
+  "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirianCaumes/Wifi-QRCode-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KirianCaumes/Wifi-QRCode-Generator/issues"
+  },
+  "homepage": "https://github.com/KirianCaumes/Wifi-QRCode-Generator#readme",
+  "engines": {
+    "node": "18.x.x"
+  },
+  "type": "module",
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/KirianCaumes"
+    }
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --experimental-specifier-resolution=node ./src/index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "playwright-chromium": "^1.31.0",
     "qrcode": "^1.5.1"
@@ -20,9 +38,5 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsdoc": "^40.0.0",
     "eslint-plugin-jsx-a11y": "^6.7.1"
-  },
-  "type": "module",
-  "engines": {
-    "node": "18.x.x"
   }
 }
