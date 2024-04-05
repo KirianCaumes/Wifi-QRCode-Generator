@@ -8,7 +8,7 @@ A basic script to generate an image with a QR Code to easily share your Wifi. ðŸ
 
 ## How to use
 
-Install dependecies with:
+Install dependencies with:
 
 ```sh
 npm install
@@ -24,7 +24,7 @@ npm start
 
 There is a [devcontainer](https://code.visualstudio.com/docs/devcontainers/containers) on that project already configured, feel free to use it.
 
-Install dependecies with:
+Install dependencies with:
 
 ```sh
 npm install
